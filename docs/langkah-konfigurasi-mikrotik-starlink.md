@@ -166,11 +166,14 @@ Setelah itu hubungkan smartphone ke jaringan Wi-Fi bawaan STARLINK melalui menu 
 
 ---
 
-### Langkah 3 - Memastikan Status Koneksi Online
+### Langkah 3 - 3)	Ubah Nama & Kata Sandi Wi-Fi: 
 
-Setelah perangkat berhasil terhubung, aplikasi Starlink akan menampilkan status koneksi. Pastikan status perangkat menunjukkan **Online**.
+Setelah perangkat Starlink berhasil terhubung ke internet, langkah berikutnya adalah Buka kembali Aplikasi starlink mobilenya untuk melakukan proses mengubah nama jaringan (SSID) dan kata sandi (password) Wi-Fi agar lebih mudah dikenali dan aman digunakan. Proses ini dilakukan melalui aplikasi Starlink dengan mengikuti petunjuk yang tersedia.Kemudian Hubungkan smartphone ke jaringan Wi-Fi bawaan STARLINK,Setelah itu kembali ke aplikasi Starlink. Lalu Masukkan nama jaringan (SSID) dan kata sandi (password) yang diinginkan pada menu Configure WiFi, lalu pilih Submit.Setelah itu Aplikasi menerapkan pengaturan (Applying settings) hingga proses konfigurasi selesai. Setelah selesai, Wi-Fi Starlink akan menggunakan nama dan kata sandi yang baru.
 
 ![Status Online Starlink](/images/11-starlink-online.jpg)
+![Status Online Starlink](/images/11-starlink-online.jpg)
+![Status Online Starlink](/images/11-starlink-online.jpg)
+
 
 ---
 
