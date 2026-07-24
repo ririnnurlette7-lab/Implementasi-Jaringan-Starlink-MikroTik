@@ -83,17 +83,87 @@ IP → Addresses
 
 # 3.5 Konfigurasi DHCP Server untuk Jaringan Hotspot
 
-DHCP Server digunakan untuk memberikan alamat IP secara otomatis kepada perangkat pengguna yang terhubung melalui jaringan Hotspot.
+DHCP Server digunakan untuk memberikan alamat IP secara otomatis kepada perangkat pengguna yang terhubung melalui jaringan Hotspot. Konfigurasi dilakukan pada interface **Bridge1-HOTSPOT** sehingga setiap perangkat yang terhubung ke jaringan dapat memperoleh alamat IP sesuai dengan rentang yang telah ditentukan.
 
-Konfigurasi DHCP Server dilakukan pada interface Bridge1-HOTSPOT.
+---
 
-![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/06-dhcp-server-bridge11.jpg)
-![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/dhcp-2.jpg)
-![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/dhcp-3.jpg)
-![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/dhcp-4.jpg)
-![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/dhcp-5.jpg)
+### Langkah 1 - Membuka Menu DHCP Setup
 
+Masuk ke menu **IP → DHCP Server**, kemudian pilih **DHCP Setup** untuk memulai proses konfigurasi DHCP Server.
 
+![Langkah 1 - DHCP Setup](/images/06-dhcp-server-bridge11.jpg)
+
+---
+
+### Langkah 2 - Memilih Interface DHCP Server
+
+Pilih interface **Bridge1-HOTSPOT** sebagai interface yang akan digunakan untuk mendistribusikan alamat IP kepada perangkat pengguna.
+
+![Langkah 2 - Interface DHCP Server](/images/dhcp-2.jpg)
+
+---
+
+### Langkah 3 - Menentukan Network Address
+
+Masukkan atau konfirmasikan alamat jaringan (Network Address) yang akan digunakan oleh DHCP Server sesuai dengan konfigurasi jaringan lokal.
+
+![Langkah 3 - Network Address](/images/dhcp-3.jpg)
+
+---
+
+### Langkah 4 - Menentukan Gateway
+
+Tentukan alamat **Gateway** yang akan digunakan oleh seluruh perangkat client sebagai jalur menuju jaringan internet.
+
+![Langkah 4 - Gateway](/images/dhcp-4.jpg)
+
+---
+
+### Langkah 5 - Menentukan Rentang Alamat IP (Address Pool)
+
+Tentukan rentang alamat IP (Address Pool) yang akan dibagikan secara otomatis kepada perangkat yang terhubung ke jaringan Hotspot.
+
+![Langkah 5 - Address Pool](/images/dhcp-5.jpg)
+
+---
+
+### Langkah 6 - Konfigurasi DNS Server
+
+Masukkan alamat DNS Server yang akan digunakan agar perangkat client dapat melakukan resolusi nama domain ke alamat IP.
+
+![Langkah 6 - DNS Server](/images/dhcp-6.jpg)
+
+---
+
+### Langkah 7 - Pengaturan Lease Time
+
+Atur nilai **Lease Time** sebagai lama waktu peminjaman alamat IP sebelum dilakukan pembaruan oleh DHCP Server.
+
+![Langkah 7 - Lease Time](/images/dhcp-7.jpg)
+
+---
+
+### Langkah 8 - Meninjau Konfigurasi DHCP Server
+
+Periksa kembali seluruh parameter konfigurasi yang telah dimasukkan sebelum menyelesaikan proses konfigurasi DHCP Server.
+
+![Langkah 8 - Review Konfigurasi](/images/dhcp-8.jpg)
+
+---
+
+### Langkah 9 - Menyelesaikan Konfigurasi DHCP Server
+
+Klik **Next** atau **OK** untuk menyelesaikan proses konfigurasi DHCP Server sehingga konfigurasi dapat diterapkan pada interface yang dipilih.
+
+![Langkah 9 - Finish DHCP Setup](/images/dhcp-9.jpg)
+
+---
+
+### Langkah 10 - Verifikasi DHCP Server
+
+Pastikan DHCP Server telah aktif pada interface **Bridge1-HOTSPOT** dan siap memberikan alamat IP secara otomatis kepada perangkat pengguna yang terhubung ke jaringan Hotspot.
+
+![Langkah 10 - DHCP Server Aktif](/images/dhcp-10.jpg)
 ---
 
 # 3.7 Aktivasi DHCP Server untuk Jaringan Hotspot
