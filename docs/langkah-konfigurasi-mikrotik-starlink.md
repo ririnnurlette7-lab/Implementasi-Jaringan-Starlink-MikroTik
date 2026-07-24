@@ -54,7 +54,7 @@ Konfigurasi interface dilakukan untuk menentukan fungsi setiap port pada MikroTi
 
 Bridge digunakan untuk menggabungkan beberapa interface jaringan Hotspot agar berada dalam satu segmen jaringan yang sama. Pada implementasi ini, beberapa interface Hotspot digabungkan ke dalam Bridge1-HOTSPOT.
 
-![Interface List Bridge Hotspot](../images/03-bridge-hotspot.jpg)
+![Interface List Bridge Hotspot](/images/03-bridge.jpg)
 
 ---
 
