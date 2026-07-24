@@ -184,10 +184,13 @@ Pada halaman utama aplikasi Starlink, pilih menu Starlink misaligned untuk memul
 
 ![Menu Configure WiFi](/images/12-configure-wifi.jpg)
 ![Menu Configure WiFi](/images/13-configure-wifi.jpg)
+
+--
+
 ![Menu Configure WiFi](/images/14-configure-wifi.jpg)
 ![Menu Configure WiFi](/images/15-configure-wifi.jpg)
 
----
+--
 
 
 # 3.3 Pengujian Kecepatan Starlink
@@ -209,6 +212,7 @@ Hasil pengujian menunjukkan bahwa perangkat Starlink telah berhasil menyediakan 
 # 4 Konfigurasi perangkat MikroTik RB750Gr3
 
 Setelah jalur utama internet dari Starlink dipastikan aktif dan stabil, dilakukan instalasi logis pada router pusat menggunakan bantuan aplikasi WinBox. Adapun ringkasan alokasi port interface, pengalamatan IP Address, serta DNS Server secara menyeluruh dapat dilihat pada tabel berikut:
+
 ## 4.1 Perencanaan Interface dan Alamat IP
 
 Sebelum melakukan proses konfigurasi pada router MikroTik, dilakukan perencanaan interface dan pembagian alamat IP untuk menentukan fungsi masing-masing port jaringan. Perencanaan ini bertujuan agar proses konfigurasi dan distribusi jaringan dapat berjalan sesuai dengan topologi yang telah dirancang.
@@ -225,15 +229,16 @@ Sebelum melakukan proses konfigurasi pada router MikroTik, dilakukan perencanaan
 ## 4.2 Pengaturan Identitas (Identity) dan Proteksi Keamanan Router
 
 Identitas router diubah menjadi Dusun Kotania Atas melalui menu System Identity untuk mempermudah identifikasi remote. Keamanan perangkat kemudian diperketat dengan memberikan password baru pada akun admin di menu System Users untuk mencegah akses ilegal.
-  1.Halaman Login Via  WinBox
- ![halaman login winbox](/images/login-winbox.jpg)
- --
-  2.Tampilan Menu Via  WinBox 
-   ![halaman login winbox](/images/menu-winbox.jpg)
-   --
- 3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
-   ![halaman login winbox](/images/pengamanan-winbox.jpg)
-   --
+
+   1.Halaman Login Via  WinBox
+    ![halaman login winbox](/images/login-winbox.jpg)
+    --
+   2.Tampilan Menu Via  WinBox 
+      ![halaman login winbox](/images/menu-winbox.jpg)
+      --
+   3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
+      ![halaman login winbox](/images/pengamanan-winbox.jpg)
+      --
 ## 4.3 Penamaan Port Interface
 Melalui menu Interfaces, port fisik router dinamai ulang secara spesifik: 
 •	ether1 menjadi Ether1-ISP, 
@@ -250,40 +255,68 @@ Untuk menyatukan kontrol voucher, dibuat interface virtual bernama bridge-hotspo
  ![halaman login winbox](/images/BRIDGE.jpg)
 
 Sebagai bukti dokumentasi nyata pada ini konfigurasi Bridge Hotspot dengan tiga port (Ether3-Hotspot1, Ether4-Hotspot2, dan Ether5-Hotspot3) telah berhasil diterapkan dan aktif mendistribusikan trafik data, berikut disajikan tangkapan layar (screenshot) Interface List dari perangkat MikroTik yang digunakan di lapangan:
----
+
+--
+
 ## 4.5 Aktivasi DHCP Client WAN Via WinBox
 
 Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alokasi IP dinamis 192.168.1.163/24 beserta gateway dari modem Starlink hingga statusnya berubah menjadi Bound (terhubung internet
 
  ![halaman login winbox](/images/DHCP-CLIENT.jpg)
-
  --
+ 
  ## 4.6 IP Address List Via WinmBox
  lalui menu IP Address, dialokasikan IP statis untuk jaringan internal, sedangkan interface virtual bridge-hotspot diberikan IP Kelas A yaitu 20.20.20.20/24 yang bertindak sebagai gateway captive portal user.
 
   ![halaman login winbox](/images/IP.jpg)
-
-  --
+ --
   ## 4.7 Penerapan DHCP Server untuk Titik Distribusi Client Via WinBox
-  Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot. Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
+  Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot.    Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
   
-1.Menu DHCP Setup Via WinBox
-  ![halaman login winbox](/images/SETUP1.jpg)
-  
----
-
-2.Pemilihan Interface DHCP Server Via WinBox
- ![halaman login winbox](/images/SETUP2.jpg)
- 
- ---
- 
-3.Lease Time WinBox
-     ![halaman login winbox](/images/SETUP3.jpg)
-     
-   ---
+   1.Menu DHCP Setup Via WinBox
+     ![halaman login winbox](/images/SETUP1.jpg)
+     --
+   
+   2.Pemilihan Interface DHCP Server Via WinBox
+    ![halaman login winbox](/images/SETUP2.jpg)
+    --
+    
+   3.Lease Time WinBox
+   ![halaman login winbox](/images/SETUP3.jpg)
+   --
+   
    Pada tahap ini seperti ditunjukkan pada menu DHCP Setup, dilakukan pemilihan DHCP Server Interface yaitu Bridge1-HOTSPOT. Setelah pemilihan antarmuka dilakukan, langkah selanjutnya adalah menekan tombol Next untuk mengonfirmasi parameter teknis seperti DHCP Address Space, Gateway, Address to Give Out, DNS Servers, dan Lease Time. Seluruh parameter tersebut dibiarkan menggunakan nilai default yang telah dihitung otomatis oleh sistem MikroTik sesuai dengan segmen IP yang telah ditentukan sebelumnya.
 Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan bahwa DHCP Server telah aktif dan siap mendistribusikan alamat IP secara dinamis kepada setiap perangkat yang melakukan autentikasi pada jaringan Hotspot Dusun Kotania Atas.
 
 ---
 
+## 4.8 Aktivasi DHCP Server untuk Jaringan Hotspot
+   Setelah antarmuka bridge-hotspot berhasil dibuat, langkah krusial berikutnya adalah mengaktifkan layanan DHCP Server agar setiap gawai warga yang terhubung ke jaringan Wi-Fi mendapatkan konfigurasi IP Address secara otomatis (dinamis). Aktivasi ini dilakukan melalui DHCP Setup Wizard pada menu ip dhcp-server. Proses konfigurasi ini melibatkan penenuan interface Bridge-Hotspot sebagai pintu gerbang utama yang akan memfilter trafik pengguna. Dengan mengaktifkan fitur ini, sistem akan secara otomatis melakukan redirect (pengalihan) pada setiap permintaan HTTP dari perangkat klien menuju halaman login yang telah dirancang.
+  
+   gambar gambar berikut adalah Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT
+
+ ![halaman login winbox](/images/brid-1.jpg)
+ --
+ ![halaman login winbox](/images/brid-2.jpg)
+ --
+ ![halaman login winbox](/images/48-3.jpg)
+  --
+ ![halaman login winbox](/images/48-4.jpg)
+   --
+![halaman login winbox](/images/48-5.jpg)
+==
+![halaman login winbox](/images/48-6.jpg)
+--
+![halaman login winbox](/images/48-7.jpg)
+ --
+![halaman login winbox](/images/48-8.jpg)
+--
+![halaman login winbox](/images/48-9.jpg)
+--
+![halaman login winbox](/images/48-10.jpg)
+--
+Seluruh parameter teknis pada (Gambar 4.25), diatas diselesaikan dengan memilih opsi Next secara berurutan hingga sistem memberikan notifikasi "Setup has completed successfull
+
+----
+   
     
