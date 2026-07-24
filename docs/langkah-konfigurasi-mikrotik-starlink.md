@@ -20,7 +20,7 @@ Perangkat yang digunakan dalam implementasi jaringan terdiri dari:
 
 Implementasi jaringan menggunakan Starlink sebagai sumber koneksi internet yang terhubung ke router MikroTik. MikroTik berfungsi sebagai perangkat pengelola jaringan yang melakukan konfigurasi alamat IP, distribusi koneksi internet, serta pengaturan layanan Hotspot kepada pengguna melalui Access Point.
 
-![Topologi Jaringan](../images/01-Topologi.jpg)
+![Topologi Jaringan](/images/01-topologi.jpg)
 
 ---
 
