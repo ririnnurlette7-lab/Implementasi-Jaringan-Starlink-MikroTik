@@ -46,7 +46,7 @@ Tahapan konfigurasi MikroTik pada implementasi jaringan Starlink meliputi:
 
 Konfigurasi interface dilakukan untuk menentukan fungsi setiap port pada MikroTik. Interface yang digunakan disesuaikan dengan kebutuhan jaringan, yaitu koneksi dari Starlink dan jaringan distribusi menuju pengguna.
 
-![Konfigurasi Interface MikroTik](../images/02-interface.jpg)
+![Konfigurasi Interface MikroTik](/images/02-interface.jpg)
 
 ---
 
