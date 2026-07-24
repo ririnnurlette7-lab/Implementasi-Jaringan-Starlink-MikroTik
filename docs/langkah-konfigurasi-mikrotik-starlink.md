@@ -378,25 +378,25 @@ Gambar-gambar berikut menjelaskan langkah-langkah konfigurasi perangkat router m
 
 ## 6. pilih next
 
-![halaman login winbox](/images/acess6.jpg)
+![halaman login winbox](/images/acess6.png)
   ---
 
 ## 7. pilih finish
 
-![halaman login winbox](/images/acess7.jpg)
+![halaman login winbox](/images/acess7.png)
 ---
 
 ## 8. tunggu sampai proses rebootingnya selesai
 
-![halaman login winbox](/images/acess8.jpg)
+![halaman login winbox](/images/acess8.png)
 ---
 
 ## 9. jika sudah maka masukkan password yang sudah di buat sebelumnya pada tampilan login
 
-![halaman login winbox](/images/acess9.jpg)
+![halaman login winbox](/images/acess9.png)
 ---
 
 ## 10. pilih sistem tools untuk mengatur zona waktunya
 
-![halaman login winbox](/images/acess10.jpg)
+![halaman login winbox](/images/acess10.png)
 ---
