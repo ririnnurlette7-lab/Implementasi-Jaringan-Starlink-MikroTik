@@ -324,5 +324,16 @@ Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan
 Seluruh parameter teknis pada gambar diatas diselesaikan dengan memilih opsi Next secara berurutan hingga sistem memberikan notifikasi "Setup has completed successfull
 
 ---
+
+## 4.9 Translasi Alamat Jaringan via Firewall NAT
+
+Agar seluruh segmen IP privat lokal dapat mengakses internet, dibuat aturan baru pada menu IP Firewall NAT. Parameter disetel menggunakan Chain: srcnat, Out. Interface: Ether1-ISP, dan Action: masquerade. Aturan ini berfungsi menyamarkan IP lokal menjadi IP publik Starlink yang valid di internet.
+
+![halaman login winbox](/images/alamat.jpg)
+--
+![halaman login winbox](/images/alamat.jpg)
+--
+NAT Masquerade berfungsi menerjemahkan alamat IP private pada jaringan lokal menjadi alamat IP publik Starlink sehingga seluruh perangkat pengguna dapat mengakses internet.
+
    
     
