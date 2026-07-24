@@ -6,15 +6,19 @@ Dokumentasi ini berisi langkah-langkah aktivasi jarinagn Starlink untuk mendapat
 
 ## 1. Persiapan Perangkat
 
+Sebelum melakukan proses implementasi jaringan internet berbasis Starlink, dilakukan persiapan perangkat yang akan digunakan. Persiapan ini bertujuan untuk memastikan seluruh perangkat dapat terhubung dan dikonfigurasi sesuai dengan kebutuhan jaringan.
+
 Perangkat yang digunakan dalam implementasi jaringan terdiri dari:
 
-- Starlink sebagai sumber koneksi internet.
-- Router MikroTik sebagai perangkat manajemen jaringan.
-- Access Point sebagai perangkat distribusi jaringan kepada pengguna.
+- Antena Starlink Gen 3 (V4) sebagai sumber koneksi internet berbasis satelit Low Earth Orbit (LEO).
+- Router Starlink sebagai perangkat penghubung antara antena satelit dan jaringan lokal.
+- Router MikroTik sebagai perangkat manajemen jaringan yang digunakan untuk mengatur distribusi internet, DHCP, NAT, dan layanan Hotspot.
+- Access Point sebagai perangkat distribusi koneksi internet kepada pengguna.
 - Kabel LAN/Fiber Optic sebagai media transmisi jaringan.
-- Laptop/PC untuk melakukan konfigurasi menggunakan aplikasi WinBox.
+- Laptop/PC yang digunakan untuk melakukan konfigurasi MikroTik menggunakan aplikasi WinBox.
+- Smartphone yang digunakan untuk melakukan aktivasi dan konfigurasi awal perangkat Starlink melalui aplikasi Starlink.
 
----
+![Perangkat Implementasi Jaringan](/images/01-perangkat.jpg)
 
 # 2. Topologi Jaringan
 
