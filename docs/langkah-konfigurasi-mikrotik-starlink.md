@@ -1,8 +1,8 @@
-# Langkah Konfigurasi MikroTik dan Starlink
+# Langkah langkah aktivasi jaringan Starlink dan Konfigurasi MikroTik
 
 ## Deskripsi
 
-Dokumentasi ini berisi langkah-langkah konfigurasi MikroTik pada implementasi jaringan internet berbasis Starlink. Konfigurasi dilakukan untuk mengatur distribusi koneksi internet dari Starlink menuju pengguna melalui perangkat MikroTik dan Access Point.
+Dokumentasi ini berisi langkah-langkah aktivasi jarinagn Starlink untuk mendapatkan koneksi dari satelit LEO Orbit dan konfigurasi MikroTik pada implementasi jaringan internet berbasis Starlink. Konfigurasi dilakukan dengana membuat identity, user baru untuk admin, penamaan interface untuk setiap port pada mikrotik via winbox, seting bridge hotshpot untuk clien, pengalamatan IP Address, setting DHCP Clien, seting DNS Server, seting firewal NAT, seting DHCP Server, konfigurasi hotspot untuk bridge yang sebelumnya sudah di buat.  
 
 ## 1. Persiapan Perangkat
 
