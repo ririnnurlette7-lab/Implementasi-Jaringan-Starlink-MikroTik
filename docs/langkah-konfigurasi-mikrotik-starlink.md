@@ -329,9 +329,9 @@ Seluruh parameter teknis pada gambar diatas diselesaikan dengan memilih opsi Nex
 
 Agar seluruh segmen IP privat lokal dapat mengakses internet, dibuat aturan baru pada menu IP Firewall NAT. Parameter disetel menggunakan Chain: srcnat, Out. Interface: Ether1-ISP, dan Action: masquerade. Aturan ini berfungsi menyamarkan IP lokal menjadi IP publik Starlink yang valid di internet.
 
-![halaman login winbox](/images/alamat.jpg)
+![halaman login winbox](/images/nat.jpg)
 --
-![halaman login winbox](/images/alamat.jpg)
+![halaman login winbox](/images/natt.jpg)
 --
 NAT Masquerade berfungsi menerjemahkan alamat IP private pada jaringan lokal menjadi alamat IP publik Starlink sehingga seluruh perangkat pengguna dapat mengakses internet.
 
