@@ -40,7 +40,45 @@ Perangkat keras yang digunakan dalam implementasi jaringan terdiri dari:
    Digunakan untuk melakukan aktivasi awal, konfigurasi Wi-Fi, dan pemantauan status perangkat Starlink melalui aplikasi Starlink.
 
 ---
+# Dokumentasi Perangkat Implementasi
 
+## Antena Starlink
+
+Antena Starlink merupakan perangkat utama yang berfungsi menerima koneksi internet dari satelit Low Earth Orbit (LEO) SpaceX. Antena ditempatkan pada lokasi yang memiliki pandangan langit terbuka agar proses komunikasi dengan satelit dapat berjalan dengan optimal.
+
+![Antena Starlink](/images/01-antena-starlink.jpg)
+
+---
+
+## Router Starlink
+
+Router Starlink berfungsi sebagai perangkat penghubung antara antena Starlink dan jaringan lokal. Perangkat ini digunakan pada tahap awal aktivasi dan konfigurasi layanan internet Starlink.
+
+![Router Starlink](/images/02-router-starlink.jpg)
+
+---
+
+## Router MikroTik
+
+Router MikroTik digunakan sebagai perangkat utama dalam pengelolaan jaringan. MikroTik berfungsi untuk mengatur koneksi internet dari Starlink, melakukan konfigurasi jaringan lokal, serta menyediakan layanan Hotspot bagi pengguna.
+
+![Router MikroTik](/images/03-mikrotik.jpg)
+
+---
+
+## Access Point
+
+Access Point digunakan untuk memperluas jangkauan jaringan dan mendistribusikan koneksi internet kepada pengguna melalui jaringan nirkabel.
+
+![Access Point](/images/04-access-point.jpg)
+
+---
+
+## Kabel Fiber Optic dan Perangkat Pendukung
+
+Kabel Fiber Optic dan perangkat pendukung digunakan sebagai media distribusi jaringan menuju beberapa titik pengguna. Penggunaan Fiber Optic bertujuan agar koneksi dapat menjangkau lokasi pengguna dengan jarak yang lebih jauh.
+
+![Fiber Optic dan HTB](/images/05-fiber-optic.jpg)
 ### 1.2 Perangkat Lunak (Software)
 
 Perangkat lunak yang digunakan dalam implementasi jaringan meliputi:
