@@ -271,6 +271,7 @@ Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alok
   ![halaman login winbox](/images/SETUP1.jpg)
   
 ---
+
 2.Pemilihan Interface DHCP Server Via WinBox
  ![halaman login winbox](/images/SETUP2.jpg)
  
