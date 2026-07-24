@@ -33,7 +33,6 @@ Tahapan konfigurasi MikroTik pada implementasi jaringan Starlink meliputi:
 3. Konfigurasi DHCP Client
 4. Konfigurasi IP Address
 5. Konfigurasi DHCP Server untuk Jaringan Hotspot
-6. Konfigurasi Lease Time DHCP
 7. Aktivasi DHCP Server pada Jaringan Hotspot
 8. Konfigurasi NAT (Network Address Translation)
 9. Konfigurasi Hotspot MikroTik
@@ -89,14 +88,6 @@ DHCP Server digunakan untuk memberikan alamat IP secara otomatis kepada perangka
 Konfigurasi DHCP Server dilakukan pada interface Bridge1-HOTSPOT.
 
 ![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/06-dhcp-server-bridge1-hotspot.jpg)
-
----
-
-# 3.6 Pengaturan Lease Time DHCP
-
-Lease Time digunakan untuk menentukan lama waktu penggunaan alamat IP yang diberikan kepada perangkat pengguna sebelum dilakukan pembaruan kembali.
-
-![Lease Time DHCP](../images/07-lease-time.jpg)
 
 ---
 
