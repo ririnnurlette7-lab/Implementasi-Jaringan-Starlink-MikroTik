@@ -156,8 +156,13 @@ Aplikasi Starlink diunduh melalui Google Play Store atau App Store sebagai langk
 ### Langkah 2 - Menghubungkan Smartphone ke Wi-Fi Starlink
 
 Buka aplikasi Starlink kemudian pilih menu **Connect to Starlink WiFi** untuk menghubungkan smartphone ke jaringan Wi-Fi bawaan Starlink.
+Setelah itu hubungkan smartphone ke jaringan Wi-Fi bawaan STARLINK melalui menu pengaturan Wi-Fi. Dan pada Aplikasi Starlink menampilkan status Online, kemudian  Pilih Starlink Misaligned untuk mengkonfigurasi nama jaringan (SSID) dan kata sandi (password).
+
 
 ![Connect to Starlink WiFi](/images/10-connect-starlink-wifi.jpg)
+![Connect to Starlink WiFi](/images/11-connect-starlink-wifi.jpg)
+![Connect to Starlink WiFi](/images/12-connect-starlink-wifi.jpg)
+
 
 ---
 
