@@ -242,17 +242,20 @@ Sebelum melakukan proses konfigurasi pada router MikroTik, dilakukan perencanaan
 
 Identitas router diubah menjadi Dusun Kotania Atas melalui menu System Identity untuk mempermudah identifikasi remote. Keamanan perangkat kemudian diperketat dengan memberikan password baru pada akun admin di menu System Users untuk mencegah akses ilegal.
 
-1.Halaman Login Via  WinBox
+## 1.Halaman Login Via  WinBox
+
 ![halaman login winbox](/images/login-winbox.jpg)
 
  --
  
-2.Tampilan Menu Via  WinBox 
+##2.Tampilan Menu Via  WinBox 
+
 ![halaman login winbox](/images/menu-winbox.jpg)
 
 --
 
-3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
+## 3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
+
 ![halaman login winbox](/images/pengamanan-winbox.jpg)
 
 --
@@ -271,6 +274,7 @@ Penamaan ini bertujuan untuk mempermudah pembagian jalur data, dan ketiganya dig
  --
  
  ## 4.4 Integrasi Penggabungan Port (Virtual Bridging)
+ 
 Untuk menyatukan kontrol voucher, dibuat interface virtual bernama bridge-hotspot. Melalui menu Ports, Ether3-Hotspot1, Ether4-Hotspot2, dan Ether5-Hotspot3 digabungkan ke dalam bridge tersebut sehingga berada dalam satu segmen atau kelas yang sama.
 
 ![halaman login winbox](/images/BRIDGE.jpg)
@@ -297,6 +301,7 @@ Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alok
   ## 4.7 Penerapan DHCP Server untuk Titik Distribusi Client Via WinBox
   
   Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot.    Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
+  
 ### Langkah 1 – Membuka Menu DHCP Setup
 
 Buka menu **IP → DHCP Server → DHCP Setup** pada aplikasi WinBox untuk memulai proses konfigurasi DHCP Server.
