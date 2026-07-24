@@ -66,7 +66,7 @@ Konfigurasi dilakukan melalui menu:
 
 IP → DHCP Client
 
-![Konfigurasi DHCP Client](../images/04-dhcp-client.jpg)
+![Konfigurasi DHCP Client](/images/04-dhcp-client.jpg)
 
 ---
 
