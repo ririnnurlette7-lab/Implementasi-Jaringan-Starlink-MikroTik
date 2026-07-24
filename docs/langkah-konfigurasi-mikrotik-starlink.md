@@ -166,7 +166,7 @@ Setelah itu hubungkan smartphone ke jaringan Wi-Fi bawaan STARLINK melalui menu 
 
 ---
 
-### Langkah 3 - 3)	Ubah Nama & Kata Sandi Wi-Fi: 
+### Langkah 3 - Ubah Nama & Kata Sandi Wi-Fi: 
 
 Setelah perangkat Starlink berhasil terhubung ke internet, langkah berikutnya adalah Buka kembali Aplikasi starlink mobilenya untuk melakukan proses mengubah nama jaringan (SSID) dan kata sandi (password) Wi-Fi agar lebih mudah dikenali dan aman digunakan. Proses ini dilakukan melalui aplikasi Starlink dengan mengikuti petunjuk yang tersedia.Kemudian Hubungkan smartphone ke jaringan Wi-Fi bawaan STARLINK,Setelah itu kembali ke aplikasi Starlink. Lalu Masukkan nama jaringan (SSID) dan kata sandi (password) yang diinginkan pada menu Configure WiFi, lalu pilih Submit.Setelah itu Aplikasi menerapkan pengaturan (Applying settings) hingga proses konfigurasi selesai. Setelah selesai, Wi-Fi Starlink akan menggunakan nama dan kata sandi yang baru.
 
@@ -177,7 +177,8 @@ Setelah perangkat Starlink berhasil terhubung ke internet, langkah berikutnya ad
 
 ---
 
-## Langkah 3.4 Atur Penyelarasan (Alignment):  
+## Langkah 4 - Atur Penyelarasan (Alignment): 
+
 Pada tahap ini dilakukan penyelarasan (alignment) antena Starlink agar memperoleh arah yang optimal dalam menerima sinyal satelit. Proses penyelarasan dilakukan melalui aplikasi Starlink dengan mengikuti panduan visual yang ditampilkan pada layar.
 Pada halaman utama aplikasi Starlink, pilih menu Starlink misaligned untuk memulai proses penyelarasan antena. Setelah menu dipilih, aplikasi akan menampilkan panduan penyelarasan berupa arah panah dan kotak indikator. Panduan ini digunakan sebagai acuan untuk mengatur posisi antena Starlink. Kemudian Putar atau sesuaikan posisi fisik antena Starlink mengikuti arah panah yang ditampilkan pada aplikasi. Lakukan penyesuaian hingga posisi antena sejajar dengan kotak indikator pada layar. Jika penyelarasan sudah tepat, kotak putih akan menyala terang sebagai tanda bahwa posisi antena telah sesuai. Setelah penyelarasan berhasil, aplikasi akan menampilkan status Starlink is aligned. Pilih tombol “Done” untuk menyelesaikan proses penyelarasan. Dengan demikian, antena Starlink telah berada pada posisi optimal dan siap digunakan.
 
@@ -204,7 +205,7 @@ Hasil pengujian menunjukkan bahwa perangkat Starlink telah berhasil menyediakan 
 ![Speedtest Starlink](/images/20-speedtest-starlink.jpg)
 
 
-# 3. Konfigurasi MikroTik
+# 4 Konfigurasi MikroTik
 
 Tahapan konfigurasi MikroTik pada implementasi jaringan Starlink meliputi:
 
