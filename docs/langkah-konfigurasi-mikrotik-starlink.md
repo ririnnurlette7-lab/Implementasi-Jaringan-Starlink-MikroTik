@@ -225,13 +225,13 @@ Sebelum melakukan proses konfigurasi pada router MikroTik, dilakukan perencanaan
 ## 4.2 Pengaturan Identitas (Identity) dan Proteksi Keamanan Router
 
 Identitas router diubah menjadi Dusun Kotania Atas melalui menu System Identity untuk mempermudah identifikasi remote. Keamanan perangkat kemudian diperketat dengan memberikan password baru pada akun admin di menu System Users untuk mencegah akses ilegal.
- ## 1. •	Halaman Login Via  WinBox
+  1.Halaman Login Via  WinBox
  ![halaman login winbox](/images/login-winbox.jpg)
  --
-  ## 2. •	•	Tampilan Menu Via  WinBox 
+  2.Tampilan Menu Via  WinBox 
    ![halaman login winbox](/images/menu-winbox.jpg)
    --
- ## 3. •	System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
+ 3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
    ![halaman login winbox](/images/pengamanan-winbox.jpg)
    --
 ## 4.3 Penamaan Port Interface
@@ -239,6 +239,29 @@ Melalui menu Interfaces, port fisik router dinamai ulang secara spesifik:
 •	ether1 menjadi Ether1-ISP, 
 •	ether2 menjadi Ether2-PC, 
 •	Ether3, Ether4, dan Ether5 menjadi Hotspot1, Hotspot2, dan Hotspot3. 
+
 Penamaan ini bertujuan untuk mempermudah pembagian jalur data, dan ketiganya digabungkan menjadi satu segmen jaringan yang sama melalui sistem Bridge (Bridge Hotspot).
+
  ![halaman login winbox](/images/4.3-winbox.jpg)
  --
+ ## 4.4 Integrasi Penggabungan Port (Virtual Bridging)
+Untuk menyatukan kontrol voucher, dibuat interface virtual bernama bridge-hotspot. Melalui menu Ports, Ether3-Hotspot1, Ether4-Hotspot2, dan Ether5-Hotspot3 digabungkan ke dalam bridge tersebut sehingga berada dalam satu segmen atau kelas yang sama.
+
+ ![halaman login winbox](/images/BRIDGE.jpg)
+
+Sebagai bukti dokumentasi nyata pada ini konfigurasi Bridge Hotspot dengan tiga port (Ether3-Hotspot1, Ether4-Hotspot2, dan Ether5-Hotspot3) telah berhasil diterapkan dan aktif mendistribusikan trafik data, berikut disajikan tangkapan layar (screenshot) Interface List dari perangkat MikroTik yang digunakan di lapangan:
+---
+## 4.5 Aktivasi DHCP Client WAN Via WinBox
+
+Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alokasi IP dinamis 192.168.1.163/24 beserta gateway dari modem Starlink hingga statusnya berubah menjadi Bound (terhubung internet
+
+ ![halaman login winbox](/images/DHCP-CLIENT.jpg)
+
+ --
+ ## 4.6 IP Address List Via WinmBox
+ lalui menu IP Address, dialokasikan IP statis untuk jaringan internal, sedangkan interface virtual bridge-hotspot diberikan IP Kelas A yaitu 20.20.20.20/24 yang bertindak sebagai gateway captive portal user.
+
+  ![halaman login winbox](/images/IP.jpg)
+
+  --
+ 
