@@ -308,17 +308,17 @@ Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan
   --
  ![halaman login winbox](/images/48-4.jpg)
    --
-![halaman login winbox](/images/48-5.jpg)
+![halaman login winbox](/images/lima.jpg)
    --
-![halaman login winbox](/images/48-6.jpg)
+![halaman login winbox](/images/enam.jpg)
 --
-![halaman login winbox](/images/48-7.jpg)
+![halaman login winbox](/images/tuju.jpg)
  --
-![halaman login winbox](/images/48-8.jpg)
+![halaman login winbox](/images/delapan.jpg)
 --
-![halaman login winbox](/images/48-9.jpg)
+![halaman login winbox](/images/sembilan.jpg)
 --
-![halaman login winbox](/images/48-10.jpg)
+![halaman login winbox](/images/sepuluh.jpg)
 --
 
 Seluruh parameter teknis pada gambar diatas diselesaikan dengan memilih opsi Next secara berurutan hingga sistem memberikan notifikasi "Setup has completed successfull
