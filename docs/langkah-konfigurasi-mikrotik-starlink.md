@@ -74,6 +74,14 @@ Access Point digunakan untuk memperluas jangkauan jaringan dan mendistribusikan 
 
 ---
 
+## Access Point Outdoor
+
+Access Point Outdoor digunakan sebagai perangkat distribusi jaringan yang berfungsi untuk memancarkan koneksi internet secara nirkabel kepada pengguna di area layanan jaringan. Perangkat ini dipilih karena memiliki kemampuan untuk digunakan pada lingkungan luar ruangan serta mendukung jangkauan jaringan yang lebih luas.
+
+Pada implementasi jaringan ini, Access Point Outdoor terhubung dengan router MikroTik untuk mendistribusikan koneksi internet menuju pengguna melalui jaringan nirkabel.
+
+![Access Point Outdoor](/images/04-access-point-outdoor.jpg)
+
 ## Kabel Fiber Optic dan Perangkat Pendukung
 
 Kabel Fiber Optic dan perangkat pendukung digunakan sebagai media distribusi jaringan menuju beberapa titik pengguna. Penggunaan Fiber Optic bertujuan agar koneksi dapat menjangkau lokasi pengguna dengan jarak yang lebih jauh.
