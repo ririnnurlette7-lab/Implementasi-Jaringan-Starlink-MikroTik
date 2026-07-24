@@ -354,26 +354,22 @@ Gambar-gambar berikut menjelaskan langkah-langkah konfigurasi perangkat router m
 ### 1. memasukan IP default router di browser
 
    ![halaman login winbox](/images/acces1.jpg)
-   
    ---
    
 ### 2. masukan password kemudian login ke sistem setingannya
 
    ![halaman login winbox](/images/acces2.jpg)
-
    ---
 
 ### 3. pilih menu quick setup lalu pilih next
 
   ![halaman login winbox](/images/acces3.jpg)
-
   ---
 
 ### 4. pilih access point lalu next
 
 ![halaman login winbox](/images/acces4.jpg)
-
-  ---
+ ---
 
 ## 5. ganti nama access point kemudian pilih disable wireless security, lalu next
 
