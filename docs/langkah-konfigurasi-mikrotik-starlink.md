@@ -231,17 +231,18 @@ Sebelum melakukan proses konfigurasi pada router MikroTik, dilakukan perencanaan
 ## 4.2 Pengaturan Identitas (Identity) dan Proteksi Keamanan Router
 
 Identitas router diubah menjadi Dusun Kotania Atas melalui menu System Identity untuk mempermudah identifikasi remote. Keamanan perangkat kemudian diperketat dengan memberikan password baru pada akun admin di menu System Users untuk mencegah akses ilegal.
+1.Halaman Login Via  WinBox
+![halaman login winbox](/images/login-winbox.jpg)
+ --
+2.Tampilan Menu Via  WinBox 
+![halaman login winbox](/images/menu-winbox.jpg)
+--
+3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
+![halaman login winbox](/images/pengamanan-winbox.jpg)
+--
 
-   1.Halaman Login Via  WinBox
-    ![halaman login winbox](/images/login-winbox.jpg)
-    --
-   2.Tampilan Menu Via  WinBox 
-      ![halaman login winbox](/images/menu-winbox.jpg)
-      --
-   3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
-      ![halaman login winbox](/images/pengamanan-winbox.jpg)
-      --
 ## 4.3 Penamaan Port Interface
+
 Melalui menu Interfaces, port fisik router dinamai ulang secara spesifik: 
 •	ether1 menjadi Ether1-ISP, 
 •	ether2 menjadi Ether2-PC, 
@@ -251,10 +252,11 @@ Penamaan ini bertujuan untuk mempermudah pembagian jalur data, dan ketiganya dig
 
  ![halaman login winbox](/images/4.3-winbox.jpg)
  --
+ 
  ## 4.4 Integrasi Penggabungan Port (Virtual Bridging)
 Untuk menyatukan kontrol voucher, dibuat interface virtual bernama bridge-hotspot. Melalui menu Ports, Ether3-Hotspot1, Ether4-Hotspot2, dan Ether5-Hotspot3 digabungkan ke dalam bridge tersebut sehingga berada dalam satu segmen atau kelas yang sama.
 
- ![halaman login winbox](/images/BRIDGE.jpg)
+![halaman login winbox](/images/BRIDGE.jpg)
 
 Sebagai bukti dokumentasi nyata pada ini konfigurasi Bridge Hotspot dengan tiga port (Ether3-Hotspot1, Ether4-Hotspot2, dan Ether5-Hotspot3) telah berhasil diterapkan dan aktif mendistribusikan trafik data, berikut disajikan tangkapan layar (screenshot) Interface List dari perangkat MikroTik yang digunakan di lapangan:
 
@@ -270,20 +272,19 @@ Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alok
  ## 4.6 IP Address List Via WinmBox
  lalui menu IP Address, dialokasikan IP statis untuk jaringan internal, sedangkan interface virtual bridge-hotspot diberikan IP Kelas A yaitu 20.20.20.20/24 yang bertindak sebagai gateway captive portal user.
 
-  ![halaman login winbox](/images/IP.jpg)
+![halaman login winbox](/images/IP.jpg)
  --
   ## 4.7 Penerapan DHCP Server untuk Titik Distribusi Client Via WinBox
-  Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot.    Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
   
-   1.Menu DHCP Setup Via WinBox
-     ![halaman login winbox](/images/SETUP1.jpg)
-     --
+  Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot.    Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
+1.Menu DHCP Setup Via WinBox
+  ![halaman login winbox](/images/SETUP1.jpg)
+ --
    
-   2.Pemilihan Interface DHCP Server Via WinBox
-    ![halaman login winbox](/images/SETUP2.jpg)
-    --
-    
-   3.Lease Time WinBox
+2.Pemilihan Interface DHCP Server Via WinBox
+   ![halaman login winbox](/images/SETUP2.jpg)
+ --
+ 3.Lease Time WinBox
    ![halaman login winbox](/images/SETUP3.jpg)
    --
    
@@ -293,6 +294,7 @@ Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan
 ---
 
 ## 4.8 Aktivasi DHCP Server untuk Jaringan Hotspot
+
    Setelah antarmuka bridge-hotspot berhasil dibuat, langkah krusial berikutnya adalah mengaktifkan layanan DHCP Server agar setiap gawai warga yang terhubung ke jaringan Wi-Fi mendapatkan konfigurasi IP Address secara otomatis (dinamis). Aktivasi ini dilakukan melalui DHCP Setup Wizard pada menu ip dhcp-server. Proses konfigurasi ini melibatkan penenuan interface Bridge-Hotspot sebagai pintu gerbang utama yang akan memfilter trafik pengguna. Dengan mengaktifkan fitur ini, sistem akan secara otomatis melakukan redirect (pengalihan) pada setiap permintaan HTTP dari perangkat klien menuju halaman login yang telah dirancang.
   
    gambar gambar berikut adalah Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT
@@ -317,8 +319,9 @@ Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan
 --
 ![halaman login winbox](/images/48-10.jpg)
 --
-Seluruh parameter teknis pada (Gambar 4.25), diatas diselesaikan dengan memilih opsi Next secara berurutan hingga sistem memberikan notifikasi "Setup has completed successfull
 
-----
+Seluruh parameter teknis pada gambar diatas diselesaikan dengan memilih opsi Next secara berurutan hingga sistem memberikan notifikasi "Setup has completed successfull
+
+---
    
     
