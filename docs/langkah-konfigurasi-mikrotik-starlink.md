@@ -278,16 +278,27 @@ Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alok
   ## 4.7 Penerapan DHCP Server untuk Titik Distribusi Client Via WinBox
   
   Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot.    Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
-1.Menu DHCP Setup Via WinBox
-  ![halaman login winbox](/images/SETUP1.jpg)
- --
-   
-2.Pemilihan Interface DHCP Server Via WinBox
-   ![halaman login winbox](/images/SETUP2.jpg)
- --
- 3.Lease Time WinBox
-   ![halaman login winbox](/images/SETUP3.jpg)
-   --
+### Langkah 1 – Membuka Menu DHCP Setup
+
+Buka menu **IP → DHCP Server → DHCP Setup** pada aplikasi WinBox untuk memulai proses konfigurasi DHCP Server.
+
+![halaman login winbox](/images/SETUP1.jpg)
+
+---
+
+### Langkah 2 – Memilih Interface DHCP Server
+
+Pilih interface **Bridge1-HOTSPOT** sebagai interface yang akan digunakan untuk mendistribusikan alamat IP kepada pengguna.
+
+![halaman login winbox](/images/SETUP2.jpg)
+
+---
+
+### Langkah 3 – Mengatur Lease Time
+
+Atur nilai **Lease Time** sesuai kebutuhan, kemudian lanjutkan proses konfigurasi hingga selesai.
+
+![halaman login winbox](/images/SETUP3.jpg)
    
    Pada tahap ini seperti ditunjukkan pada menu DHCP Setup, dilakukan pemilihan DHCP Server Interface yaitu Bridge1-HOTSPOT. Setelah pemilihan antarmuka dilakukan, langkah selanjutnya adalah menekan tombol Next untuk mengonfirmasi parameter teknis seperti DHCP Address Space, Gateway, Address to Give Out, DNS Servers, dan Lease Time. Seluruh parameter tersebut dibiarkan menggunakan nilai default yang telah dihitung otomatis oleh sistem MikroTik sesuai dengan segmen IP yang telah ditentukan sebelumnya.
 Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan bahwa DHCP Server telah aktif dan siap mendistribusikan alamat IP secara dinamis kepada setiap perangkat yang melakukan autentikasi pada jaringan Hotspot Dusun Kotania Atas.
