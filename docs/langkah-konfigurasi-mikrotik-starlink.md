@@ -153,7 +153,7 @@ Periksa kembali seluruh parameter konfigurasi yang telah dimasukkan sebelum meny
 
 ### Langkah 9 - Menyelesaikan Konfigurasi DHCP Server
 
-Klik **Next** atau **OK** untuk menyelesaikan proses konfigurasi DHCP Server sehingga konfigurasi dapat diterapkan pada interface yang dipilih.
+membuat password dan user namenya
 
 ![Langkah 9 - Finish DHCP Setup](/images/dhcp-9.jpg)
 
