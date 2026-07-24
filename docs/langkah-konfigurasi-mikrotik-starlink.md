@@ -378,35 +378,29 @@ Gambar-gambar berikut menjelaskan langkah-langkah konfigurasi perangkat router m
 ## 5. ganti nama access point kemudian pilih disable wireless security, lalu next
 
 ![halaman login winbox](/images/acces5.jpg)
-
   ---
 
 ## 6. pilih next
 
 ![halaman login winbox](/images/acces6.jpg)
-
   ---
 
 ## 7. pilih finish
 
 ![halaman login winbox](/images/acces7.jpg)
-
 ---
 
 ## 8. tunggu sampai proses rebootingnya selesai
 
 ![halaman login winbox](/images/acces8.jpg)
-
 ---
 
 ## 9. jika sudah maka masukkan password yang sudah di buat sebelumnya pada tampilan login
 
 ![halaman login winbox](/images/acces9.jpg)
-
 ---
 
 ## 10. pilih sistem tools untuk mengatur zona waktunya
 
 ![halaman login winbox](/images/acces10.jpg)
-
 ---
