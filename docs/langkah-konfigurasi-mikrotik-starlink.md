@@ -157,10 +157,9 @@ Periksa kembali seluruh parameter konfigurasi yang telah dimasukkan sebelum meny
 
 ---
 
-### Langkah 10 - Verifikasi DHCP Server
+### Langkah 10 - Hotspot sukse
 
-Pastikan DHCP Server telah aktif pada interface **Bridge1-HOTSPOT** dan siap memberikan alamat IP secara otomatis kepada perangkat pengguna yang terhubung ke jaringan Hotspot.
-
+Hotspot telah berhasil aktiv
 ![Langkah 10 - DHCP Server Aktif](/images/dhcp-10.jpg)
 ---
 
