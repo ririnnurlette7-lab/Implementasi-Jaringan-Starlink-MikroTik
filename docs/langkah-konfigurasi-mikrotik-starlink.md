@@ -234,12 +234,15 @@ Sebelum melakukan proses konfigurasi pada router MikroTik, dilakukan perencanaan
 ## 4.2 Pengaturan Identitas (Identity) dan Proteksi Keamanan Router
 
 Identitas router diubah menjadi Dusun Kotania Atas melalui menu System Identity untuk mempermudah identifikasi remote. Keamanan perangkat kemudian diperketat dengan memberikan password baru pada akun admin di menu System Users untuk mencegah akses ilegal.
+
 1.Halaman Login Via  WinBox
 ![halaman login winbox](/images/login-winbox.jpg)
  --
+ 
 2.Tampilan Menu Via  WinBox 
 ![halaman login winbox](/images/menu-winbox.jpg)
 --
+
 3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
 ![halaman login winbox](/images/pengamanan-winbox.jpg)
 --
@@ -277,6 +280,7 @@ Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alok
 
 ![halaman login winbox](/images/IP.jpg)
  --
+ 
   ## 4.7 Penerapan DHCP Server untuk Titik Distribusi Client Via WinBox
   
   Konfigurasi DHCP Server dilakukan untuk memberikan alamat IP secara otomatis kepada gawai pengguna yang terhubung ke jaringan Hotspot.    Proses ini dimulai dengan menjalankan DHCP Setup Wizard pada menu, seperti ditunjukkan pada 
@@ -317,20 +321,28 @@ Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan
  --
  ![halaman login winbox](/images/brid-2.jpg)
  --
+ 
  ![halaman login winbox](/images/48-3.jpg)
   --
+  
  ![halaman login winbox](/images/48-4.jpg)
    --
+   
 ![halaman login winbox](/images/lima.jpg)
    --
+   
 ![halaman login winbox](/images/enam.jpg)
 --
+
 ![halaman login winbox](/images/tuju.jpg)
  --
+ 
 ![halaman login winbox](/images/delapan.jpg)
 --
+
 ![halaman login winbox](/images/sembilan.jpg)
 --
+
 ![halaman login winbox](/images/sepuluh.jpg)
 --
 
@@ -344,8 +356,10 @@ Agar seluruh segmen IP privat lokal dapat mengakses internet, dibuat aturan baru
 
 ![halaman login winbox](/images/nat.jpg)
 --
+
 ![halaman login winbox](/images/natt.jpg)
 --
+
 NAT Masquerade berfungsi menerjemahkan alamat IP private pada jaringan lokal menjadi alamat IP publik Starlink sehingga seluruh perangkat pengguna dapat mengakses internet.
 
 ---
