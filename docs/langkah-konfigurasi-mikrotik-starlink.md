@@ -111,6 +111,147 @@ Implementasi jaringan menggunakan Starlink sebagai sumber koneksi internet yang 
 
 ---
 
+# 3. Aktivasi dan Konfigurasi Starlink
+
+Starlink digunakan sebagai sumber koneksi internet utama dalam implementasi jaringan. Sebelum melakukan konfigurasi pada router MikroTik, perangkat Starlink terlebih dahulu dilakukan proses instalasi, aktivasi, dan sinkronisasi dengan satelit Low Earth Orbit (LEO) SpaceX.
+
+Proses aktivasi dilakukan menggunakan aplikasi Starlink untuk memastikan perangkat telah terhubung dengan jaringan satelit, memperoleh status koneksi **Online**, serta mendapatkan posisi antena yang optimal.
+
+---
+
+## 3.1 Pemasangan Fisik Perangkat Starlink
+
+Tahap awal implementasi dilakukan dengan melakukan pemasangan perangkat Starlink secara fisik.
+
+### Langkah 1 - Menempatkan Antena Starlink
+
+Antena Starlink ditempatkan pada area terbuka tanpa adanya penghalang seperti bangunan, pohon, atau objek lain yang dapat mengganggu komunikasi antara antena dengan satelit.
+
+![Antena Starlink](/images/06-antena-starlink.jpg)
+
+---
+
+### Langkah 2 - Menghubungkan Kabel Starlink
+
+Kabel Starlink dihubungkan dari bagian bawah antena menuju port antena pada router Starlink Gen 3 (V4).
+
+![Koneksi Kabel Starlink](/images/07-kabel-starlink.jpg)
+
+---
+
+### Langkah 3 - Menghidupkan Perangkat Starlink
+
+Router Starlink dihubungkan ke sumber listrik menggunakan adaptor daya bawaan hingga perangkat menyala dan siap dilakukan proses aktivasi.
+
+![Router Starlink Aktif](/images/08-router-starlink.jpg)
+
+---
+
+# 3.2 Aktivasi Wi-Fi Starlink Menggunakan Aplikasi
+
+Setelah perangkat Starlink menyala, proses aktivasi dilakukan menggunakan aplikasi Starlink pada smartphone.
+
+### Langkah 1 - Mengunduh Aplikasi Starlink
+
+Aplikasi Starlink diunduh melalui Google Play Store atau App Store sebagai langkah awal sebelum melakukan konfigurasi perangkat.
+
+![Aplikasi Starlink](/images/09-aplikasi-starlink.jpg)
+
+---
+
+### Langkah 2 - Menghubungkan Smartphone ke Wi-Fi Starlink
+
+Buka aplikasi Starlink kemudian pilih menu **Connect to Starlink WiFi** untuk menghubungkan smartphone ke jaringan Wi-Fi bawaan Starlink.
+
+![Connect to Starlink WiFi](/images/10-connect-starlink-wifi.jpg)
+
+---
+
+### Langkah 3 - Memastikan Status Koneksi Online
+
+Setelah perangkat berhasil terhubung, aplikasi Starlink akan menampilkan status koneksi. Pastikan status perangkat menunjukkan **Online**.
+
+![Status Online Starlink](/images/11-starlink-online.jpg)
+
+---
+
+# 3.3 Konfigurasi Nama Wi-Fi (SSID) dan Password
+
+Konfigurasi Wi-Fi dilakukan untuk mengubah nama jaringan dan kata sandi bawaan Starlink agar lebih mudah dikenali serta meningkatkan keamanan jaringan.
+
+### Langkah 1 - Membuka Menu Configure WiFi
+
+Masuk kembali ke aplikasi Starlink kemudian pilih menu konfigurasi Wi-Fi.
+
+![Menu Configure WiFi](/images/12-configure-wifi.jpg)
+
+---
+
+### Langkah 2 - Mengatur SSID dan Password
+
+Masukkan nama jaringan (SSID) dan kata sandi (password) yang akan digunakan, kemudian simpan konfigurasi.
+
+![Pengaturan SSID Password](/images/13-ssid-password.jpg)
+
+---
+
+### Langkah 3 - Menerapkan Pengaturan Wi-Fi
+
+Aplikasi Starlink akan menerapkan perubahan konfigurasi hingga proses selesai.
+
+![Applying Settings](/images/14-applying-settings.jpg)
+
+---
+
+# 3.4 Penyelarasan Antena Starlink (Alignment)
+
+Proses alignment dilakukan untuk mendapatkan posisi antena yang optimal dalam menerima sinyal dari satelit Starlink.
+
+### Langkah 1 - Membuka Menu Alignment
+
+Pada halaman utama aplikasi Starlink, pilih menu **Starlink Misaligned** untuk memulai proses penyelarasan antena.
+
+![Starlink Misaligned](/images/15-starlink-misaligned.jpg)
+
+---
+
+### Langkah 2 - Mengikuti Panduan Arah Antena
+
+Aplikasi Starlink akan menampilkan panduan arah berupa indikator panah yang digunakan sebagai acuan dalam mengatur posisi antena.
+
+![Panduan Alignment](/images/16-alignment-guide.jpg)
+
+---
+
+### Langkah 3 - Menyesuaikan Posisi Antena
+
+Sesuaikan posisi antena mengikuti arah yang ditampilkan aplikasi hingga posisi antena berada pada titik optimal.
+
+![Penyesuaian Antena](/images/17-adjust-alignment.jpg)
+
+---
+
+### Langkah 4 - Alignment Berhasil
+
+Apabila proses berhasil, aplikasi akan menampilkan status **Starlink is aligned** yang menunjukkan bahwa antena telah berada pada posisi optimal.
+
+![Starlink Aligned](/images/18-starlink-aligned.jpg)
+
+---
+
+# 3.5 Pengujian Kecepatan Starlink
+
+Setelah proses aktivasi dan konfigurasi selesai, dilakukan pengujian kecepatan koneksi internet menggunakan fitur Speedtest pada aplikasi Starlink.
+
+Berdasarkan hasil pengujian diperoleh:
+
+- **Kecepatan Download : 333 Mbps**
+- **Kecepatan Upload : 41,3 Mbps**
+
+Hasil pengujian menunjukkan bahwa perangkat Starlink telah berhasil menyediakan koneksi internet sebelum dilakukan proses konfigurasi lanjutan pada router MikroTik.
+
+![Speedtest Starlink](/images/19-speedtest-starlink.jpg)
+
 # 3. Konfigurasi MikroTik
 
 Tahapan konfigurasi MikroTik pada implementasi jaringan Starlink meliputi:
