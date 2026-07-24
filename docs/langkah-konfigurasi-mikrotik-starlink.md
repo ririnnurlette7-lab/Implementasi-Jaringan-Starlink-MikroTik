@@ -81,7 +81,7 @@ IP → Addresses
 
 ---
 
-# 3.5 Konfigurasi DHCP Server untuk Jaringan Hotspot
+# 3.5 Aktivasi DHCP Server untuk Jaringan Hotspot
 
 DHCP Server digunakan untuk memberikan alamat IP secara otomatis kepada perangkat pengguna yang terhubung melalui jaringan Hotspot. Konfigurasi dilakukan pada interface **Bridge1-HOTSPOT** sehingga setiap perangkat yang terhubung ke jaringan dapat memperoleh alamat IP sesuai dengan rentang yang telah ditentukan.
 
@@ -163,7 +163,7 @@ Hotspot telah berhasil aktiv
 ![Langkah 10 - DHCP Server Aktif](/images/dhcp-10.jpg)
 ---
 
-# 3.7 Aktivasi DHCP Server untuk Jaringan Hotspot
+# 3.6 Konfigurasi DHCP Server untuk Jaringan Hotspot
 
 Setelah seluruh parameter DHCP Server dikonfigurasi, layanan DHCP Server diaktifkan untuk jaringan Hotspot agar perangkat pengguna dapat memperoleh alamat IP secara otomatis.
 
@@ -171,7 +171,7 @@ Setelah seluruh parameter DHCP Server dikonfigurasi, layanan DHCP Server diaktif
 
 ---
 
-# 3.8 Konfigurasi NAT (Network Address Translation)
+# 3.7 Konfigurasi NAT (Network Address Translation)
 
 NAT digunakan untuk menerjemahkan alamat IP jaringan lokal agar perangkat pengguna dapat mengakses internet melalui koneksi Starlink.
 
@@ -183,7 +183,7 @@ IP → Firewall → NAT
 
 ---
 
-# 3.9 Konfigurasi Hotspot MikroTik
+# 3.8 Konfigurasi Hotspot MikroTik
 
 Hotspot digunakan untuk mengatur mekanisme autentikasi pengguna sebelum mendapatkan akses internet. Sistem ini digunakan untuk mendukung layanan akses internet berbasis voucher.
 
@@ -191,7 +191,7 @@ Hotspot digunakan untuk mengatur mekanisme autentikasi pengguna sebelum mendapat
 
 ---
 
-# 3.10 Konfigurasi User Profile dan User Hotspot
+# 3.9 Konfigurasi User Profile dan User Hotspot
 
 User Profile digunakan untuk mengatur batas waktu dan hak akses pengguna, sedangkan User Hotspot digunakan untuk membuat akun pengguna yang dapat melakukan autentikasi pada jaringan.
 
