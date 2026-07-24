@@ -182,9 +182,9 @@ Pada tahap ini dilakukan penyelarasan (alignment) antena Starlink agar memperole
 Pada halaman utama aplikasi Starlink, pilih menu Starlink misaligned untuk memulai proses penyelarasan antena. Setelah menu dipilih, aplikasi akan menampilkan panduan penyelarasan berupa arah panah dan kotak indikator. Panduan ini digunakan sebagai acuan untuk mengatur posisi antena Starlink. Kemudian Putar atau sesuaikan posisi fisik antena Starlink mengikuti arah panah yang ditampilkan pada aplikasi. Lakukan penyesuaian hingga posisi antena sejajar dengan kotak indikator pada layar. Jika penyelarasan sudah tepat, kotak putih akan menyala terang sebagai tanda bahwa posisi antena telah sesuai. Setelah penyelarasan berhasil, aplikasi akan menampilkan status Starlink is aligned. Pilih tombol “Done” untuk menyelesaikan proses penyelarasan. Dengan demikian, antena Starlink telah berada pada posisi optimal dan siap digunakan.
 
 ![Menu Configure WiFi](/images/12-configure-wifi.jpg)
-![Menu Configure WiFi](/images/12-configure-wifi.jpg)
-![Menu Configure WiFi](/images/12-configure-wifi.jpg)
-![Menu Configure WiFi](/images/12-configure-wifi.jpg)
+![Menu Configure WiFi](/images/13-configure-wifi.jpg)
+![Menu Configure WiFi](/images/14-configure-wifi.jpg)
+![Menu Configure WiFi](/images/15-configure-wifi.jpg)
 
 ---
 
