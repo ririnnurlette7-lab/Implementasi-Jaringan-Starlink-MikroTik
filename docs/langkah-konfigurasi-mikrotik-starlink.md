@@ -346,5 +346,67 @@ Agar seluruh segmen IP privat lokal dapat mengakses internet, dibuat aturan baru
 --
 NAT Masquerade berfungsi menerjemahkan alamat IP private pada jaringan lokal menjadi alamat IP publik Starlink sehingga seluruh perangkat pengguna dapat mengakses internet.
 
+---
+# 5.Configurasi perangkat access point(AP) untuk client (user)
+
+Gambar-gambar berikut menjelaskan langkah-langkah konfigurasi perangkat router menjadi access point(AP) untuk client(user).Berikut langkah-langkahnya:
+
+### 1. memasukan IP default router di browser
+
+   ![halaman login winbox](/images/acces1.jpg)
    
-    
+   ---
+   
+### 2. masukan password kemudian login ke sistem setingannya
+
+   ![halaman login winbox](/images/acces2.jpg)
+
+   ---
+
+### 3. pilih menu quick setup lalu pilih next
+
+  ![halaman login winbox](/images/acces3.jpg)
+
+  ---
+
+### 4. pilih access point lalu next
+
+![halaman login winbox](/images/acces4.jpg)
+
+  ---
+
+## 5. ganti nama access point kemudian pilih disable wireless security, lalu next
+
+![halaman login winbox](/images/acces5.jpg)
+
+  ---
+
+## 6. pilih next
+
+![halaman login winbox](/images/acces6.jpg)
+
+  ---
+
+## 7. pilih finish
+
+![halaman login winbox](/images/acces7.jpg)
+
+---
+
+## 8. tunggu sampai proses rebootingnya selesai
+
+![halaman login winbox](/images/acces8.jpg)
+
+---
+
+## 9. jika sudah maka masukkan password yang sudah di buat sebelumnya pada tampilan login
+
+![halaman login winbox](/images/acces9.jpg)
+
+---
+
+## 10. pilih sistem tools untuk mengatur zona waktunya
+
+![halaman login winbox](/images/acces10.jpg)
+
+---
