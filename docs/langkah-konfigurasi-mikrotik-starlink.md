@@ -158,8 +158,8 @@ Periksa kembali seluruh parameter konfigurasi yang telah dimasukkan sebelum meny
 ---
 
 ### Langkah 10 - Hotspot sukse
-
 Hotspot telah berhasil aktiv
+
 ![Langkah 10 - DHCP Server Aktif](/images/dhcp-10.jpg)
 ---
 
