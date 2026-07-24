@@ -269,12 +269,16 @@ Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alok
   
 1.Menu DHCP Setup Via WinBox
   ![halaman login winbox](/images/SETUP1.jpg)
+  
 ---
 2.Pemilihan Interface DHCP Server Via WinBox
  ![halaman login winbox](/images/SETUP2.jpg)
+ 
  ---
+ 
 3.Lease Time WinBox
      ![halaman login winbox](/images/SETUP3.jpg)
+     
    ---
    Pada tahap ini seperti ditunjukkan pada menu DHCP Setup, dilakukan pemilihan DHCP Server Interface yaitu Bridge1-HOTSPOT. Setelah pemilihan antarmuka dilakukan, langkah selanjutnya adalah menekan tombol Next untuk mengonfirmasi parameter teknis seperti DHCP Address Space, Gateway, Address to Give Out, DNS Servers, dan Lease Time. Seluruh parameter tersebut dibiarkan menggunakan nilai default yang telah dihitung otomatis oleh sistem MikroTik sesuai dengan segmen IP yang telah ditentukan sebelumnya.
 Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan bahwa DHCP Server telah aktif dan siap mendistribusikan alamat IP secara dinamis kepada setiap perangkat yang melakukan autentikasi pada jaringan Hotspot Dusun Kotania Atas.
