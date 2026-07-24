@@ -87,6 +87,7 @@ Pada implementasi jaringan ini, Access Point Outdoor terhubung dengan router Mik
 Kabel Fiber Optic dan perangkat pendukung digunakan sebagai media distribusi jaringan menuju beberapa titik pengguna. Penggunaan Fiber Optic bertujuan agar koneksi dapat menjangkau lokasi pengguna dengan jarak yang lebih jauh.
 
 ![Fiber Optic dan HTB](/images/05-fiber-optic.jpg)
+--
 ### 1.2 Perangkat Lunak (Software)
 
 Perangkat lunak yang digunakan dalam implementasi jaringan meliputi:
@@ -102,6 +103,8 @@ Perangkat lunak yang digunakan dalam implementasi jaringan meliputi:
 
 4. **Command Prompt/Terminal MikroTik**  
    Digunakan untuk melakukan pengujian koneksi jaringan menggunakan perintah ping.
+
+   --
 
 # 2. Topologi Jaringan
 
