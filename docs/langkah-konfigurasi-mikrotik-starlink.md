@@ -82,11 +82,14 @@ Pada implementasi jaringan ini, Access Point Outdoor terhubung dengan router Mik
 
 ![Access Point Outdoor](/images/04-access-point-outdoor.jpg)
 
+--
+
 ## Kabel Fiber Optic dan Perangkat Pendukung
 
 Kabel Fiber Optic dan perangkat pendukung digunakan sebagai media distribusi jaringan menuju beberapa titik pengguna. Penggunaan Fiber Optic bertujuan agar koneksi dapat menjangkau lokasi pengguna dengan jarak yang lebih jauh.
 
 ![Fiber Optic dan HTB](/images/05-fiber-optic.jpg)
+
 --
 ### 1.2 Perangkat Lunak (Software)
 
@@ -186,15 +189,19 @@ Pada tahap ini dilakukan penyelarasan (alignment) antena Starlink agar memperole
 Pada halaman utama aplikasi Starlink, pilih menu Starlink misaligned untuk memulai proses penyelarasan antena. Setelah menu dipilih, aplikasi akan menampilkan panduan penyelarasan berupa arah panah dan kotak indikator. Panduan ini digunakan sebagai acuan untuk mengatur posisi antena Starlink. Kemudian Putar atau sesuaikan posisi fisik antena Starlink mengikuti arah panah yang ditampilkan pada aplikasi. Lakukan penyesuaian hingga posisi antena sejajar dengan kotak indikator pada layar. Jika penyelarasan sudah tepat, kotak putih akan menyala terang sebagai tanda bahwa posisi antena telah sesuai. Setelah penyelarasan berhasil, aplikasi akan menampilkan status Starlink is aligned. Pilih tombol “Done” untuk menyelesaikan proses penyelarasan. Dengan demikian, antena Starlink telah berada pada posisi optimal dan siap digunakan.
 
 ![Menu Configure WiFi](/images/12-configure-wifi.jpg)
+
 --
 
 ![Menu Configure WiFi](/images/13-configure-wifi.jpg)
+
 --
 
 ![Menu Configure WiFi](/images/14-configure-wifi.jpg)
+
 --
 
 ![Menu Configure WiFi](/images/15-configure-wifi.jpg)
+
 --
 
 
@@ -237,14 +244,17 @@ Identitas router diubah menjadi Dusun Kotania Atas melalui menu System Identity 
 
 1.Halaman Login Via  WinBox
 ![halaman login winbox](/images/login-winbox.jpg)
+
  --
  
 2.Tampilan Menu Via  WinBox 
 ![halaman login winbox](/images/menu-winbox.jpg)
+
 --
 
 3.System Users Pengamanan Kata Sandi Sistem Utama MikroTik Via  WinBox
 ![halaman login winbox](/images/pengamanan-winbox.jpg)
+
 --
 
 ## 4.3 Penamaan Port Interface
@@ -257,6 +267,7 @@ Melalui menu Interfaces, port fisik router dinamai ulang secara spesifik:
 Penamaan ini bertujuan untuk mempermudah pembagian jalur data, dan ketiganya digabungkan menjadi satu segmen jaringan yang sama melalui sistem Bridge (Bridge Hotspot).
 
  ![halaman login winbox](/images/4.3-winbox.jpg)
+ 
  --
  
  ## 4.4 Integrasi Penggabungan Port (Virtual Bridging)
@@ -273,13 +284,15 @@ Sebagai bukti dokumentasi nyata pada ini konfigurasi Bridge Hotspot dengan tiga 
 Fitur DHCP Client diaktifkan pada port Ether1-ISP. Router otomatis menerima alokasi IP dinamis 192.168.1.163/24 beserta gateway dari modem Starlink hingga statusnya berubah menjadi Bound (terhubung internet
 
  ![halaman login winbox](/images/DHCP-CLIENT.jpg)
+ 
  --
  
  ## 4.6 IP Address List Via WinmBox
  lalui menu IP Address, dialokasikan IP statis untuk jaringan internal, sedangkan interface virtual bridge-hotspot diberikan IP Kelas A yaitu 20.20.20.20/24 yang bertindak sebagai gateway captive portal user.
 
 ![halaman login winbox](/images/IP.jpg)
- --
+
+ ---
  
   ## 4.7 Penerapan DHCP Server untuk Titik Distribusi Client Via WinBox
   
@@ -318,32 +331,42 @@ Proses diakhiri dengan tampilan notifikasi sukses setelah Lease Time. Menandakan
    gambar gambar berikut adalah Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT
 
  ![halaman login winbox](/images/brid-1.jpg)
+ 
  --
  ![halaman login winbox](/images/brid-2.jpg)
+ 
  --
  
  ![halaman login winbox](/images/48-3.jpg)
+ 
   --
   
  ![halaman login winbox](/images/48-4.jpg)
+ 
    --
    
 ![halaman login winbox](/images/lima.jpg)
+
    --
    
 ![halaman login winbox](/images/enam.jpg)
+
 --
 
 ![halaman login winbox](/images/tuju.jpg)
+
  --
  
 ![halaman login winbox](/images/delapan.jpg)
+
 --
 
 ![halaman login winbox](/images/sembilan.jpg)
+
 --
 
 ![halaman login winbox](/images/sepuluh.jpg)
+
 --
 
 Seluruh parameter teknis pada gambar diatas diselesaikan dengan memilih opsi Next secara berurutan hingga sistem memberikan notifikasi "Setup has completed successfull
@@ -355,10 +378,12 @@ Seluruh parameter teknis pada gambar diatas diselesaikan dengan memilih opsi Nex
 Agar seluruh segmen IP privat lokal dapat mengakses internet, dibuat aturan baru pada menu IP Firewall NAT. Parameter disetel menggunakan Chain: srcnat, Out. Interface: Ether1-ISP, dan Action: masquerade. Aturan ini berfungsi menyamarkan IP lokal menjadi IP publik Starlink yang valid di internet.
 
 ![halaman login winbox](/images/nat.jpg)
+
 --
 
 ![halaman login winbox](/images/natt.jpg)
 --
+
 
 NAT Masquerade berfungsi menerjemahkan alamat IP private pada jaringan lokal menjadi alamat IP publik Starlink sehingga seluruh perangkat pengguna dapat mengakses internet.
 
@@ -370,49 +395,60 @@ Gambar-gambar berikut menjelaskan langkah-langkah konfigurasi perangkat router m
 ### 1. memasukan IP default router di browser
 
    ![halaman login winbox](/images/acess1.jpg)
+   
    ---
    
 ### 2. masukan password kemudian login ke sistem setingannya
 
    ![halaman login winbox](/images/acess2.jpg)
+   
    ---
 
 ### 3. pilih menu quick setup lalu pilih next
 
   ![halaman login winbox](/images/acess3.jpg)
+  
   ---
 
 ### 4. pilih access point lalu next
 
+
 ![halaman login winbox](/images/acess4.jpg)
+
  ---
 
 ## 5. ganti nama access point kemudian pilih disable wireless security, lalu next
 
 ![halaman login winbox](/images/acess5.jpg)
+
   ---
 
 ## 6. pilih next
 
 ![halaman login winbox](/images/acess6.png)
+
   ---
 
 ## 7. pilih finish
 
 ![halaman login winbox](/images/acess7.png)
+
 ---
 
 ## 8. tunggu sampai proses rebootingnya selesai
 
 ![halaman login winbox](/images/acess8.png)
+
 ---
 
 ## 9. jika sudah maka masukkan password yang sudah di buat sebelumnya pada tampilan login
 
 ![halaman login winbox](/images/acess9.png)
+
 ---
 
 ## 10. pilih sistem tools untuk mengatur zona waktunya
 
 ![halaman login winbox](/images/acess10.png)
+
 ---
