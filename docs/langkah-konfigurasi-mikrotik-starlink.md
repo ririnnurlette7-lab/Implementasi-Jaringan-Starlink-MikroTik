@@ -151,9 +151,7 @@ Periksa kembali seluruh parameter konfigurasi yang telah dimasukkan sebelum meny
 
 ---
 
-### Langkah 9 - Menyelesaikan Konfigurasi DHCP Server
-
-membuat password dan user namenya
+### Langkah 9 - Memberi user dan passwordnya
 
 ![Langkah 9 - Finish DHCP Setup](/images/dhcp-9.jpg)
 
