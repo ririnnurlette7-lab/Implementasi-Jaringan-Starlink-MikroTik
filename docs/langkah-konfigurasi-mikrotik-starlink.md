@@ -177,7 +177,7 @@ Setelah perangkat Starlink berhasil terhubung ke internet, langkah berikutnya ad
 
 ---
 
-## 3.4 Atur Penyelarasan (Alignment):  
+## Langkah 3.4 Atur Penyelarasan (Alignment):  
 Pada tahap ini dilakukan penyelarasan (alignment) antena Starlink agar memperoleh arah yang optimal dalam menerima sinyal satelit. Proses penyelarasan dilakukan melalui aplikasi Starlink dengan mengikuti panduan visual yang ditampilkan pada layar.
 Pada halaman utama aplikasi Starlink, pilih menu Starlink misaligned untuk memulai proses penyelarasan antena. Setelah menu dipilih, aplikasi akan menampilkan panduan penyelarasan berupa arah panah dan kotak indikator. Panduan ini digunakan sebagai acuan untuk mengatur posisi antena Starlink. Kemudian Putar atau sesuaikan posisi fisik antena Starlink mengikuti arah panah yang ditampilkan pada aplikasi. Lakukan penyesuaian hingga posisi antena sejajar dengan kotak indikator pada layar. Jika penyelarasan sudah tepat, kotak putih akan menyala terang sebagai tanda bahwa posisi antena telah sesuai. Setelah penyelarasan berhasil, aplikasi akan menampilkan status Starlink is aligned. Pilih tombol “Done” untuk menyelesaikan proses penyelarasan. Dengan demikian, antena Starlink telah berada pada posisi optimal dan siap digunakan.
 
@@ -188,59 +188,8 @@ Pada halaman utama aplikasi Starlink, pilih menu Starlink misaligned untuk memul
 
 ---
 
-### Langkah 2 - Mengatur SSID dan Password
 
-Masukkan nama jaringan (SSID) dan kata sandi (password) yang akan digunakan, kemudian simpan konfigurasi.
-
-![Pengaturan SSID Password](/images/13-ssid-password.jpg)
-
----
-
-### Langkah 3 - Menerapkan Pengaturan Wi-Fi
-
-Aplikasi Starlink akan menerapkan perubahan konfigurasi hingga proses selesai.
-
-![Applying Settings](/images/14-applying-settings.jpg)
-
----
-
-# 3.4 Penyelarasan Antena Starlink (Alignment)
-
-Proses alignment dilakukan untuk mendapatkan posisi antena yang optimal dalam menerima sinyal dari satelit Starlink.
-
-### Langkah 1 - Membuka Menu Alignment
-
-Pada halaman utama aplikasi Starlink, pilih menu **Starlink Misaligned** untuk memulai proses penyelarasan antena.
-
-![Starlink Misaligned](/images/15-starlink-misaligned.jpg)
-
----
-
-### Langkah 2 - Mengikuti Panduan Arah Antena
-
-Aplikasi Starlink akan menampilkan panduan arah berupa indikator panah yang digunakan sebagai acuan dalam mengatur posisi antena.
-
-![Panduan Alignment](/images/16-alignment-guide.jpg)
-
----
-
-### Langkah 3 - Menyesuaikan Posisi Antena
-
-Sesuaikan posisi antena mengikuti arah yang ditampilkan aplikasi hingga posisi antena berada pada titik optimal.
-
-![Penyesuaian Antena](/images/17-adjust-alignment.jpg)
-
----
-
-### Langkah 4 - Alignment Berhasil
-
-Apabila proses berhasil, aplikasi akan menampilkan status **Starlink is aligned** yang menunjukkan bahwa antena telah berada pada posisi optimal.
-
-![Starlink Aligned](/images/18-starlink-aligned.jpg)
-
----
-
-# 3.5 Pengujian Kecepatan Starlink
+# 3.3 Pengujian Kecepatan Starlink
 
 Setelah proses aktivasi dan konfigurasi selesai, dilakukan pengujian kecepatan koneksi internet menggunakan fitur Speedtest pada aplikasi Starlink.
 
@@ -252,6 +201,8 @@ Berdasarkan hasil pengujian diperoleh:
 Hasil pengujian menunjukkan bahwa perangkat Starlink telah berhasil menyediakan koneksi internet sebelum dilakukan proses konfigurasi lanjutan pada router MikroTik.
 
 ![Speedtest Starlink](/images/19-speedtest-starlink.jpg)
+![Speedtest Starlink](/images/20-speedtest-starlink.jpg)
+
 
 # 3. Konfigurasi MikroTik
 
