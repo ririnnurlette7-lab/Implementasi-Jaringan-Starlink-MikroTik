@@ -131,21 +131,15 @@ Antena Starlink ditempatkan pada area terbuka tanpa adanya penghalang seperti ba
 
 ---
 
-### Langkah 2 - Menghubungkan Kabel Starlink
+### Langkah 2 - Menghubungkan Kabel  dan menghidupkan perangkat Starlink
 
 Kabel Starlink dihubungkan dari bagian bawah antena menuju port antena pada router Starlink Gen 3 (V4).
+kemudian Router Starlink dihubungkan ke sumber listrik menggunakan adaptor daya bawaan hingga perangkat menyala dan siap dilakukan proses aktivasi.
 
 ![Koneksi Kabel Starlink](/images/07-kabel-starlink.jpg)
 
 ---
 
-### Langkah 3 - Menghidupkan Perangkat Starlink
-
-Router Starlink dihubungkan ke sumber listrik menggunakan adaptor daya bawaan hingga perangkat menyala dan siap dilakukan proses aktivasi.
-
-![Router Starlink Aktif](/images/08-router-starlink.jpg)
-
----
 
 # 3.2 Aktivasi Wi-Fi Starlink Menggunakan Aplikasi
 
