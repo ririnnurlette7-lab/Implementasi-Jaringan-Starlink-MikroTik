@@ -78,7 +78,7 @@ Konfigurasi dilakukan melalui menu:
 
 IP → Addresses
 
-![Konfigurasi IP Address](../images/05-ip-address.jpg)
+![Konfigurasi IP Address](/images/05-ip-address.jpg)
 
 ---
 
@@ -88,7 +88,7 @@ DHCP Server digunakan untuk memberikan alamat IP secara otomatis kepada perangka
 
 Konfigurasi DHCP Server dilakukan pada interface Bridge1-HOTSPOT.
 
-![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](../images/06-dhcp-server-bridge1-hotspot.jpg)
+![Alur Konfigurasi DHCP Server untuk Bridge1-HOTSPOT](/images/06-dhcp-server-bridge1-hotspot.jpg)
 
 ---
 
